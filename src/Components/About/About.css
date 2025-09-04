@@ -26,3 +26,42 @@
     z-index: -1;
     opacity: 0.8;
 }
+
+.about-summary{
+    width: 60vw;
+    font-size: 33px;
+    text-align: center;
+    font-style: italic;
+}
+
+.about-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-sections h1{
+    width: 50vw;
+    font-size: 40px;
+}
+
+.about-sections div hr{
+    border: 1px solid #2f4c58;
+}
+
+.about-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-education{
+    display: flex;
+    gap: 60px;
+}
+
+.about-education div div{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
