@@ -16,7 +16,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-connect">Connect With Me</div>
     </div>
-  );
+  ); 
 };
 
 export default Navbar;
