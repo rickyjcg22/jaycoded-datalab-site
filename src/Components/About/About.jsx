@@ -37,6 +37,62 @@ const About = () => {
             <div className="about-right">
                 <h1>Skills</h1>
                 <hr />
+                <div className="about-skills">
+                    <div className='about-skills-top'>
+                        <div>
+                            <div>Scientific Machine Learning</div>
+                            <p>Machine Learning, Regression & Classification Analysis, Physics-informed Neural Network, Deep Learning, Predictive Modeling</p>
+                            <ul>
+                                <li>Programming Languages: Matlab, Python, R, C++</li>
+                                <li>Libraries/Packages: NumPy, Pandas, SciPy, Scikit-learn, PyTorch, XGBoost, LightGBM, Statsmodels</li>
+                                <li>Software/Others: Git, GitHub, VS Code, Linux, Aspen Hysis, Scilab, Origin Pro, Minitab</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div>Data Analytics</div>
+                            <p>Exploratory Data Analysis, Data Wrangling & Aggregation, Data Visualization & Storytelling</p>
+                            <ul>
+                                <li>Programming Languages: Python, R, SQL, JavaScript</li>
+                                <li>Libraries/Packages: NumPy, Pandas, Matplotlib, Seaborn, Statsmodels</li>
+                                <li>Software/Others: Git, GitHub, VS Code, Linux, MS Excel, Google Workspace & AppScript, VS Code</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div>Data Engineering</div>
+                            <p>Data Modeling, ETL and ELT</p>
+                            <ul>
+                                <li>Programming Languages: SQL, Python</li>
+                                <li>Databases: MySQL, Google BigQuery, Snowflake, Database Design, Data Warehouse & Data Lakes, Star & Snowflake Schema</li>
+                                <li>Software/Others: Git, GitHub, VS Code, Linux</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className='about-skills-bot'>
+                        <div>
+                            <div>Business Intelligence</div>
+                            <p>Data Modeling, Dashboard Development, KPI Monitoring, Reporting, SharePoint Development</p>
+                            <ul>
+                                <li>Programming Languages: SQL, Python</li>
+                                <li>Tools: Power BI, Looker Studio, Tableau, SharePoint, Power Apps, Power Automate</li>
+                                <li>Software/Others: Git, GitHub, VS Code, Linux</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div>Business Analysis</div>
+                            <p>Process Mapping, Process Optimization, Documentation (SOPs, Technical Docs), Communications, Client Engagement, Requirement Gathering</p>
+                            <ul>
+                                <li>Software/Others: MS Office 365, Power BI, Power Apps, SharePoint</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div>Technical Documentation</div>
+                            <p>Research Writing, Publications, SOP Creation, Technical Manuals, Process Mapping & Documentation</p>
+                            <ul>
+                                <li>Software/Others: MS Office 365, Google Workspace, SharePoint</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
