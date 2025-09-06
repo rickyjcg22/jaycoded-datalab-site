@@ -1,6 +1,9 @@
 import React from 'react';
 import './About.css'
 import theme_pattern from '../../assets/theme-pattern.png'
+import star_3 from '../../assets/star3.png'
+import star_4 from '../../assets/star4.png'
+import star_45 from '../../assets/star4-5.png'
 
 const About = () => {
   return (
@@ -17,14 +20,14 @@ const About = () => {
                 <h1>Education</h1>
                 <hr />
                 <div className='about-education'>
-                    <div>
+                    <div className='education'>
                         <div>Master of Science in Chemical Engineering</div>
                         <p>Mapua University, School of Graduate Studies</p>
                         <p>Specialization: Data Science in Proton Exchange Membrane Fuel Cell Design Optimization</p>
                         <p>Awards and Recognition: DOST-ERDT Scholar</p>
                         <p>GWA: 1.2500</p>
                     </div>
-                    <div>
+                    <div className='education'>
                         <div>Bachelor of Science in Chemical Engineering</div>
                         <p>Mapua University, School of Graduate Studies</p>
                         <p>Specialization: Sustainable Engineering Technologies and Environmental Engineering</p>
@@ -39,7 +42,8 @@ const About = () => {
                 <hr />
                 <div className="about-skills">
                     <div className='about-skills-top'>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_45} alt="Star Rating" />
                             <div>Scientific Machine Learning</div>
                             <p>Machine Learning, Regression & Classification Analysis, Physics-informed Neural Network, Deep Learning, Predictive Modeling</p>
                             <ul>
@@ -48,7 +52,8 @@ const About = () => {
                                 <li>Software/Others: Git, GitHub, VS Code, Linux, Aspen Hysis, Scilab, Origin Pro, Minitab</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_45} alt="Star Rating" />
                             <div>Data Analytics</div>
                             <p>Exploratory Data Analysis, Data Wrangling & Aggregation, Data Visualization & Storytelling</p>
                             <ul>
@@ -57,7 +62,8 @@ const About = () => {
                                 <li>Software/Others: Git, GitHub, VS Code, Linux, MS Excel, Google Workspace & AppScript, VS Code</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_3} alt="Star Rating" />
                             <div>Data Engineering</div>
                             <p>Data Modeling, ETL and ELT</p>
                             <ul>
@@ -68,7 +74,8 @@ const About = () => {
                         </div>
                     </div>
                     <div className='about-skills-bot'>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_4} alt="Star Rating" />
                             <div>Business Intelligence</div>
                             <p>Data Modeling, Dashboard Development, KPI Monitoring, Reporting, SharePoint Development</p>
                             <ul>
@@ -77,14 +84,16 @@ const About = () => {
                                 <li>Software/Others: Git, GitHub, VS Code, Linux</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_4} alt="Star Rating" />
                             <div>Business Analysis</div>
                             <p>Process Mapping, Process Optimization, Documentation (SOPs, Technical Docs), Communications, Client Engagement, Requirement Gathering</p>
                             <ul>
                                 <li>Software/Others: MS Office 365, Power BI, Power Apps, SharePoint</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className='skills'>
+                            <img src={star_45} alt="Star Rating" />
                             <div>Technical Documentation</div>
                             <p>Research Writing, Publications, SOP Creation, Technical Manuals, Process Mapping & Documentation</p>
                             <ul>
