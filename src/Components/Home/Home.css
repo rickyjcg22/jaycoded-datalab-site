@@ -56,12 +56,24 @@
     color: #fafafa;
 }
 
+.home-connect a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
 .home-resume{
     padding: 15px 35px;
     border-radius: 50px;
     border: 2px solid #2f4c58;
     color: #2f4c58;
     cursor: pointer;
+}
+
+.home-resume a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
 }
 
 .home-connect:hover{
