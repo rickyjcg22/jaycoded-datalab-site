@@ -1,0 +1,15 @@
+.announcement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background: #2f4c58;
+    color: #fafafa;
+    animation: blinkColors 0.3s infinite alternate;
+}
+
+@keyframes blinkColors{
+    from { color:  #fafafa;}
+    to { color: #10f494; }
+}
